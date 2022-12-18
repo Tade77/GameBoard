@@ -3,61 +3,54 @@ import GameCircle from "./GameCircle";
 
 const GameBoard = () => {
   return (
-    <div
-      style={{
-        display: "grid",
-        gridTemplateColumns: "1fr 1fr 1fr 1fr",
-        gridTemplateRows: "1fr 1fr 1fr 1fr",
-        padding: "30px",
-      }}
-    >
+    <div className="gameBoard">
       <GameCircle id={1} color="red">
-        red
+        1
       </GameCircle>
       <GameCircle id={2} color="blue">
-        blue
+        2
       </GameCircle>
       <GameCircle id={3} color="red">
-        red
+        3
       </GameCircle>
       <GameCircle id={4} color="blue">
-        blue
+        4
       </GameCircle>
       <GameCircle id={5} color="red">
-        red
+        5
       </GameCircle>
       <GameCircle id={6} color="blue">
-        blue
+        6
       </GameCircle>
       <GameCircle id={7} color="red">
-        red
+        7
       </GameCircle>
-      <GameCircle id={7} color="blue">
-        blue
+      <GameCircle id={8} color="blue">
+        8
       </GameCircle>
-      <GameCircle id={7} color="red">
-        blue
+      <GameCircle id={9} color="red">
+        9
       </GameCircle>
-      <GameCircle id={7} color="blue">
-        blue
+      <GameCircle id={10} color="blue">
+        10
       </GameCircle>
-      <GameCircle id={7} color="red">
-        blue
+      <GameCircle id={11} color="red">
+        11
       </GameCircle>
-      <GameCircle id={7} color="blue">
-        blue
+      <GameCircle id={12} color="blue">
+        12
       </GameCircle>
-      <GameCircle id={7} color="red">
-        blue
+      <GameCircle id={13} color="red">
+        13
       </GameCircle>
-      <GameCircle id={7} color="blue">
-        blue
+      <GameCircle id={14} color="blue">
+        14
       </GameCircle>
-      <GameCircle id={7} color="red">
-        blue
+      <GameCircle id={15} color="red">
+        15
       </GameCircle>
-      <GameCircle id={7} color="blue">
-        blue
+      <GameCircle id={16} color="blue">
+        16
       </GameCircle>
     </div>
   );

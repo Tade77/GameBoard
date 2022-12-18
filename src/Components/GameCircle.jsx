@@ -6,14 +6,9 @@ const GameCircle = ({ id, children, color }) => {
   };
   return (
     <div
+      className="gameCircle"
       onClick={() => handleClick(id)}
-      style={{
-        backgroundColor: color,
-        height: 100,
-        width: 100,
-        margin: "20px",
-        borderRadius: 50,
-      }}
+      style={{ backgroundColor: color }}
     >
       {children}
     </div>
