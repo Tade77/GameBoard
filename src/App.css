@@ -6,10 +6,22 @@
   width: 500px;
   position: absolute;
   left: 350px;
+  border: 2px solid gray;
+  border-radius: 10px;
 }
 .gameCircle {
   margin: 10px;
   height: 100px;
   width: 100px;
   border-radius: 50%;
+  border: 5px solid black;
+}
+.player0 {
+  /* background-color: greenyellow; */
+}
+.player1 {
+  background-color: red;
+}
+.player2 {
+  background-color: blue;
 }

@@ -1,14 +1,14 @@
 import React from "react";
 
-const GameCircle = ({ id, children, color }) => {
-  const handleClick = (id) => {
+const GameCircle = ({ id, e, children, handlePick, className }) => {
+  const handleClick = (id, e) => {
     // alert("click" + id);
+    handlePick(id, e);
   };
   return (
     <div
-      className="gameCircle"
-      onClick={() => handleClick(id)}
-      style={{ backgroundColor: color }}
+      className={`gameCircle ${className} ${id % 2 === 0 ? "even" : "odd"}`}
+      onClick={() => handleClick(id, e)}
     >
       {children}
     </div>
